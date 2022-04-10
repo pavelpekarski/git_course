@@ -1,1 +1,1 @@
-cuerse for GIT
+course for GIT
