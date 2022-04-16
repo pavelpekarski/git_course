@@ -1,5 +1,9 @@
-print('Hello, World!')
-print(*[i for i in range(20)])
-print('python')
+def convert_to_python_case(txt):
+    s = list(txt)
+    for i in range(len(s)):
+        if s[i] == s[i].upper():
+            s.insert(i - 1, '_')
+    return s        
 
-print('new')
+txt = input()
+print(convert_to_python_case(txt))
