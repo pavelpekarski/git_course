@@ -1,9 +1,7 @@
-def convert_to_python_case(txt):
-    s = list(txt)
-    for i in range(len(s)):
-        if s[i] == s[i].upper():
-            s.insert(i - 1, '_')
-    return s        
-
-txt = input()
-print(convert_to_python_case(txt))
+import random
+for _ in range(10):
+    n = random.randint(0, 1)
+    if n == 1:
+        print('орел')
+    else:
+        print('решка')
